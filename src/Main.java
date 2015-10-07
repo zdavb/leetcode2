@@ -6,7 +6,8 @@ public class Main {
         //Main.gameOfLife();
 //        Main.medianOfTwoArray();
 //        Main.regularmatch();
-        Main.containerWithMostWater();
+//        Main.containerWithMostWater();
+        Main.divideTwoInteger();
     }
     public static void containerWithMostWater(){
         ContainerWithMostWater water = new ContainerWithMostWater();
@@ -23,6 +24,10 @@ public class Main {
     public static void regularmatch(){
         RegularExpressionMatching match = new RegularExpressionMatching();
         match.test();
+    }
+    public static void divideTwoInteger(){
+        DivideTwoIntegers integers = new DivideTwoIntegers();
+        integers.test();
     }
 
 }
