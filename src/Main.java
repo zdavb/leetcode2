@@ -7,7 +7,12 @@ public class Main {
 //        Main.medianOfTwoArray();
 //        Main.regularmatch();
 //        Main.containerWithMostWater();
-        Main.divideTwoInteger();
+//        Main.divideTwoInteger();
+        Main.substringconcatation();
+    }
+    private static void substringconcatation(){
+        SubStringWithConcatation sub = new SubStringWithConcatation();
+        sub.test();
     }
     public static void containerWithMostWater(){
         ContainerWithMostWater water = new ContainerWithMostWater();
