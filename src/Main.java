@@ -1,3 +1,5 @@
+import javax.print.DocFlavor;
+
 /**
  * Created by dave on 2015/9/10.
  */
@@ -8,7 +10,22 @@ public class Main {
 //        Main.regularmatch();
 //        Main.containerWithMostWater();
 //        Main.divideTwoInteger();
-        Main.substringconcatation();
+//        Main.substringconcatation();
+//        Main.multistring();
+//        Main.wildCard();
+        Main.permutation();
+    }
+    private static void permutation(){
+        PermutationsII permutationsII = new PermutationsII();
+        permutationsII.test();
+    }
+    private static void wildCard(){
+        WildCard card = new WildCard();
+        card.test();
+    }
+    private static void multistring(){
+        MultiString string = new MultiString();
+        string.test();
     }
     private static void substringconcatation(){
         SubStringWithConcatation sub = new SubStringWithConcatation();
