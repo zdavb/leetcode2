@@ -13,7 +13,12 @@ public class Main {
 //        Main.substringconcatation();
 //        Main.multistring();
 //        Main.wildCard();
-        Main.permutation();
+//        Main.permutation();
+        Main.validNumber();
+    }
+    private static void validNumber(){
+        ValidNumber number = new ValidNumber();
+        number.test();
     }
     private static void permutation(){
         PermutationsII permutationsII = new PermutationsII();
